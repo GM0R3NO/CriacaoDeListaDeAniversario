@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(#00a6ff, #2732ad);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(77, 203, 167);
+    padding: 40px 10px;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+
+input{
+    width: 20%;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.nome{
+    margin-left: 0.8em;
+}
+
+.registro{
+    margin-left: 5%;
+}
+
+input::placeholder{
+    display: flex;
+    text-align: center;
+}
+
+.salvar{
+    background-color: green;
+    color: aliceblue;
+    padding: 1em;
+    border-radius: 1em;
+    width: 7%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.registros{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 3% 0 3%;
+    border-radius: 5%;
+}
+
+.descricao{
+    border: solid 1px ; 
+    padding: 1em 14.7%;
+}
+
+.data{
+    margin-top: 1em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+    margin: 2em 0 0 4em;
+}
+
+ul{
+    list-style: none;
+}
+
