@@ -16,7 +16,7 @@ function fazerLista(informacao){
     const paragafroData = document.createElement('p')
     const botaoRemove = document.createElement('button')
     const btnEdit = document.createElement('button')
-    const divisao = document.createElement('div')
+
 
 
     botaoRemove.textContent = 'Remover'
@@ -43,7 +43,7 @@ function fazerLista(informacao){
         
        atualizarLista()
     }
-    
+    li.append(inputCheck)
     li.append(paragafroTexto)
     li.append(paragafroData)
     divisao.append(btnEdit)
@@ -80,7 +80,6 @@ formulario.addEventListener('submit', (e) => {
     }
 
     
-
     lista.push(informacao)
     atualizarListaTempoReal(informacao)
     atualizarLista()
