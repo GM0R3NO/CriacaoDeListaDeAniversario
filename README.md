@@ -1,2 +1,2 @@
 # CriacaoDeListaDeAniversario
-Criação de lista de aniversario (em desenvolvimento)
+Criação de lista de aniversario
